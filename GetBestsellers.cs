@@ -146,7 +146,6 @@ namespace Menahel4u
 
             // Cleanup
             xlWorkbook.Close();
-            xlApp.Quit();
 
             // Release COM objects
             Marshal.ReleaseComObject(xlWorksheet);
